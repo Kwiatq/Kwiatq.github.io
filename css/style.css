@@ -1,0 +1,28 @@
+body
+{
+    background: green;
+    width: 400px;
+    height: 400px;
+        
+}
+
+p
+{
+    position:absolute;
+    left:0px;
+    top:185px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    
+}
+
+div{
+    position:absolute;
+    left:200px;
+    top:0px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
