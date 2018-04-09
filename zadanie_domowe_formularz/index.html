@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie domowe formularz</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/marian.kwietniewicz@gmail.com" method="post">
+        <label for="imie">Imię:</label>
+        <br />
+        <input type="text" name="imie" id="imie" placeholder="Podaj swoje imię">
+        <br />
+        <br />
+        <label for="nazwisko">Nazwisko:</label>
+        <br />
+        <input type="text" name="nazwisko" id="nazwisko" placeholder="Podaj swoje nazwisko">
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <br />
+        <input type="text" name="email" id="email" placeholder="Wpisz swój adres e-mail">
+        <br />
+        <br />
+
+        <label for="numer_telefonu">Numer telefonu:</label>
+        <br />
+        <input type="text" name="numer_telefonu" id="numer_telefonu" placeholder="Wpisz numer telefonu">
+        <br />
+        <br />
+
+        <!-- selektor miasta-->
+
+        <select name="select">
+ <option value="value1">Kraków</option>
+ <option value="value2" >Warszawa</option>
+ <option value="value3" >Gdańsk</option>
+ <option value="value4" selected>Ostrowiec Świętokrzyski</option>
+    <option value="value5" >Poznań</option>
+        <option value="value6" >Wrocław</option>
+        </select>
+
+        <br />
+        <br />
+
+        <!-- wybór płci "radio" -->
+
+        <input type="radio" name="gender" value="man">Mężczyzna<br>
+        <input type="radio" name="gender" value="woman">Kobieta<br>
+        <input type="radio" name="gender" value="inny" checked> Inny
+        <br/>
+        <br />
+
+        <!-- zgoda na dane osobowe "checkbox" -->
+
+        <input type="checkbox" name="zgoda" value="zgoda">Zgadzam się na przetwarzanie danych osobowych
+        <br />
+        <br />
+
+
+        <!-- wiadomość "textarea" -->
+
+        <label for="wiadomosc">Wiadomość:</label>
+        <br />
+        <textarea name="wiadomosc" rows="10" cols="30" id="wiadomosc" placeholder="Tutaj wpisz swoją wiadomość"></textarea>
+        <br />
+        <br />
+        <button type="submit" value="Send">Wyślij</button>
+    </form>
+</body>
+
+</html>
