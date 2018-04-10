@@ -1,0 +1,67 @@
+.krata {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+    margin:0;
+    width: 300px;
+    height: 300px;
+    
+}
+.kwadrat {
+    margin:0;
+    position:relative;
+  background-color: white;
+  border: 5px solid white;
+  padding: 5px;
+    width: 100px;
+    height: 100px;
+ 
+}
+
+.kolo {
+    margin:0;
+    position: absolute;
+        left:30px;
+            top:30px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: blue;
+}
+
+.niebieski{
+    background-color: blue;
+}
+
+.czerwony{
+    background-color: red;
+}
+
+.zielony{
+    background-color: green;
+}
+
+.zolty{
+    background-color: yellow;
+}
+
+.czarny{
+    background-color: black;
+}
+
+.pomaranczowy{
+    background-color: orange;
+}
+
+.fiolet{
+    background-color: darkviolet;
+}
+
+.szary{
+    background-color: gray;
+}
+
+.rozowy{
+    background-color: pink;
+}
