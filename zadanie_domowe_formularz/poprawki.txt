@@ -1,0 +1,11 @@
+
+Ogólnie bardzo dobrze, ale jedna uwaga:
+
+Test zgody oraz p³ci powinny znaleŸæ siê w
+ labelkach przypisanych do inputów. Wtedy 
+bêdzie mo¿liwoœæ zaznaczania poprzez klikniêcie w napis
+
+I pilnuj formatowania kodu - to wa¿ne aby by³ czytelny.
+ Generalnie jest OK, tylko w <select> nie ma odpowiednich wciêæ.
+
+Proszê o poprawki :)
