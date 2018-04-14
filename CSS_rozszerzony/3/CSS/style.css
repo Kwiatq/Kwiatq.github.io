@@ -1,0 +1,29 @@
+/* przy div.klient[suma] nie pokoloruja na czerwono 10 lini */
+
+div[suma] {
+    background-color: burlywood;
+}
+
+div[suma="1500"] {
+    background-color: red;
+}
+
+div[detaliczny~="tak"] {
+    background-color: aqua;
+}
+
+div[detaliczny*="tak"] {
+    background-color: green;
+}
+
+div[detaliczny^="tak"] {
+    background-color: darkviolet;
+}
+
+div[suma^="25"] {
+    color:yellow;
+}
+
+div[suma$="00"] {
+    color:gray;
+}

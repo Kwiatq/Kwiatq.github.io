@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie domowe formularz</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <form action="https://formspree.io/marian.kwietniewicz@gmail.com" method="post">
+        <label for="imie">Imię:</label>
+        <br />
+        <input type="text" name="imie" id="imie" >
+        <br />
+        <br />
+        <label for="nazwisko">Nazwisko:</label>
+        <br />
+        <input type="text" name="nazwisko" id="nazwisko" >
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <br />
+        <input type="text" name="email" id="email" >
+        <br />
+        <br />
+
+        <label for="numer_telefonu">Numer telefonu:</label>
+        <br />
+        <input type="text" name="numer_telefonu" id="numer_telefonu">
+        <br />
+        <br />
+
+        <!-- selektor miasta-->
+
+        <select name="select">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa" selected>Warszawa</option>
+            <option value="gdansk" >Gdańsk</option>
+            <option value="ostrowiec" >Ostrowiec Świętokrzyski</option>
+            <option value="poznan" >Poznań</option>
+            <option value="wroclaw" >Wrocław</option>
+            <option value="inne_znane_miasto" >inne znane miasto</option>
+        </select>
+
+        <br />
+        <br />
+
+        <!-- wybór płci "radio" -->
+
+        <label for="mezczyzna">Mężczyzna</label>
+        <input type="radio" name="plec" id="mezczyzna" value="mężczyzna" checked><br>
+        <label for="kobieta">Kobieta</label>
+        <input type="radio" name="plec" id="kobieta" value="kobieta" >
+        <br />
+        <br />
+
+        <!-- wiadomość "textarea" -->
+
+        <label for="wiadomosc">Wiadomość:</label>
+        <br />
+        <textarea name="wiadomosc" rows="10" cols="30" id="wiadomosc"></textarea>
+        <br />
+        <!-- zgoda na dane osobowe "checkbox" -->
+        
+        <br />
+        <input type="checkbox" name="zgoda" id="zgoda" value="wyrazenie_zgody" checked>
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        
+        <br />
+        <br />
+        
+        <button type="submit" value="Send">Send</button>
+    </form>
+</body>
+
+</html>
