@@ -27,15 +27,20 @@ a {
     transition: all 0.3s;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* general styles */
 
 /* nawigacja */
 
 #main-nav {
-    background-color: red;
+    background-color: aqua;
     position: fixed;
     top:0;
     width: 100%;
+    z-index: 20;
 }
 
 #main-nav ul {
@@ -72,11 +77,68 @@ a {
 .header-content {
      text-align: center;
     position: relative;
-    
 /* oszukanie przegladarki celem wycentrowania   */
     top:50%;
     transform: translateY(-50%);
-     
+}
+
+#main-header .header-content h1 {
+    font-size: 4em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+#main-header .header-content h2 {
+    font-weight: 300;
+    font-size: 2em;
 }
 
 /* koniec headera */
+
+/* about start */
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    }
+
+#about figure {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin:0;
+}
+
+#about figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 10px solid #fff;
+    border-radius: 15px;   
+}
+
+#about article {
+    width: 50%;
+    float:left;
+}
+
+/* about end */
+
+/* skills start */
+
+#skills p, #skills .skills-icons {
+    text-align: center;
+}
+
+#skills .skills-icons .skills-icons-item {
+    display: inline-block;
+}
+
+
+
+/* skills end */
+
+/* kontakt start */
+
+
+
+/* kontakt end */
