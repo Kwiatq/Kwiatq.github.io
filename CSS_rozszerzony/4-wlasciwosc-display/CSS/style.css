@@ -1,0 +1,43 @@
+#p1 {
+    background-color: red;
+    color:white;
+}
+
+#p2 {
+    background-color: blue;
+    color:white;
+    display: block;
+}
+
+#elementy-blokowe {
+    display: block
+}
+
+#elementy-liniowe > :first-child {
+    background-color: yellow;
+}
+
+#elementy-liniowe > :last-child {
+    background-color: fuchsia;
+}
+
+#elementy-liniowe span {
+    display: block;
+}
+
+#elementy-inline-block ul li {
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    margin:10px;
+    background-color: beige;
+    border:1px dotted red;
+    
+    /* centrowanie napisu w kontenerze */
+    text-align: center;
+    line-height: 50px;
+}
+
+#elementy-display-none {
+    display: none;
+}

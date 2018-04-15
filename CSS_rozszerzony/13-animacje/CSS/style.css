@@ -1,0 +1,78 @@
+
+/* skala bez wyjścia z kontenera: przez overflow:hidden */
+/* ulyjsi.github.io/webSass-index */
+
+img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+    transition: all 2s linear;
+}
+
+#box1 img:hover {
+    /* odwrócenie obrotu (-*deg)   */
+    transform: rotate(-360deg);
+    /* łapie za określony pkt i wokół niego obraca   */
+    transform-origin: 20% 10%;
+}
+
+#box2 img:hover {
+    transform: translate(200px, 100px);
+    }
+
+#box3 img:hover {
+    transform: scale(1.2);
+    /*  żeby sie nie chował  */
+    transform-origin: top left;
+}
+
+/* powiększenie obrazka z rotacją niewychodzącą poza kontener   */
+
+#box4 {
+    border: 5px solid red;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    }
+
+#box4 img:hover {
+    transform: scale(1.5) rotate(90deg);
+}
+
+
+    /* Animacja */
+@keyframes resize {
+    0%, 100% {
+        width: 34%;
+        height: 62%;
+    }
+    50% {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+#box5 img {
+    animation: resize 5s infinite
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

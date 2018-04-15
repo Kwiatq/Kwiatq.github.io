@@ -1,0 +1,34 @@
+/* dodawaj do selektorów pseudo elementów content:"*"; */
+
+#p1::before{
+    content: "przed elementem ";
+    color:red;    
+}
+
+#p2::after{
+    content: " po elemencie";
+    color: blue;    
+}
+
+#p3::first-letter{
+    content: "pierwsza litera ";
+    color:aqua;
+}
+
+#p4::selection{
+    content: " zaznaczenie ";
+    color:yellow;
+}
+
+#p5::first-line{    
+    background-color: violet;
+}
+
+#p6 a:link{
+    background-color:sandybrown;
+    font-color:green;
+}
+
+#p7 span{
+    background-color: olive;
+}
