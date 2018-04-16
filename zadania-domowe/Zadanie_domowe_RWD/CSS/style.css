@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+#naglowek {
+    background-image: url(../img/man-1.jpg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* responsywnosc- najniższa rozdzielczość */
+
+@media (max-width:992px) {
+    h1 {
+        text-align: center;
+        clear: both;
+        position: absolute;
+        bottom: 20%;
+        margin:0;
+    }
+
+    #naglowek {
+        background-position: top;
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+/* drugi zakres- średnia rozdzielczość */
+
+@media (min-width:992px) and (max-width:1170px) {
+    h1 {
+        text-align: right;
+        top: 15%;
+        right: 5%;
+        color: white;
+    }
+
+    #naglowek {
+        background-image: url(../img/man-2.jpg);
+        background-position: center;
+        background-size: 100%, 70%;
+    }
+}
+
+/* trzeci zakres- największa rozdzielczość */
+
+@media (min-width:1170px) {
+    h1 {
+        text-align: left;
+        color: white;
+        top: 25%;
+    }
+
+    #naglowek {
+        background-position: center;
+        background-size: 100%, 100%;
+    }
+
+}
