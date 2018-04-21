@@ -198,9 +198,22 @@ h2 {
 
 /* portfolio end*/
 
+#kontakt .kontakts, .formularz{
+    background-color: #213b50;
+    width: 50%;
+    margin: 0;
+    height: 300px;
+}
+
+#kontakt h3 {
+    color:white;  
+}
+
 #kontakt .kontakts {
+    float:left;
     display: inline-block;
     width:50%;
+    
 }
 
 #kontakt .kontakts .ikony {
@@ -208,11 +221,13 @@ h2 {
     text-align: center;
     font-size: 40px;
     margin: 10px;
+    bottom:0px;
 }
 
 #kontakt .kontakts .ikony .fb{
     float: left;
     margin:20px;
+    background-color: white;
 }
 
 #kontakt .kontakts .ikony .fb:hover {
@@ -221,7 +236,8 @@ h2 {
 
 #kontakt .kontakts .ikony .gplus{
     float:left;
-    margin:20px;    
+    margin:20px; 
+    background-color: white;
 }
 
 #kontakt .kontakts .ikony .gplus:hover {
@@ -230,7 +246,8 @@ h2 {
 
 #kontakt .kontakts .ikony .tw{
     float:left;
-    margin:20px;    
+    margin:20px; 
+    background-color: white;
 }
 
 #kontakt .kontakts .ikony .tw:hover {
@@ -239,7 +256,8 @@ h2 {
 
 #kontakt .kontakts .ikony .in{
     float:left;
-    margin:20px;   
+    margin:20px; 
+    background-color: white;
 }
 
 #kontakt .kontakts .ikony .in:hover {
@@ -247,7 +265,7 @@ h2 {
 }
 
 #kontakt .formularz {
-    float: right;
+    float: left;
     text-align: center;
     
 }
