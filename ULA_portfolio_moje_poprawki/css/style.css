@@ -196,24 +196,157 @@ h2 {
 
 /* kontakt start */
 
+/* moje wspiy
+#kontakt {
+    background-color: #213b50;
+    color:white;
+    }
 
+#kontakt h2 {
+    text-align: left;
+    margin-left:20px;
+}
 
+#kontakt p {
+    margin-left:10px;
+}
 
+#kontakt a {
+    text-decoration: none;
+    color: #1ac056;
+}
 
+#kontakt #sociale {
+    display: inline-block;
+    margin:20px;
+    width: 50%;
+    height: 40px;
+}
 
+#kontakt #sociale fb{
+    display: inline-block;
+    float: left;
+    margin:20px;
+    width: 25%;
+    height: 40px;
+}
+
+#kontakt #sociale fb:hover{
+   border:1px solid white;
+}
+
+#kontakt #formularz {
+    display: block;
+}
+*/
+
+#contact {
+    background-color: #213b50;
+    color:white;
+/*    Ważne */
+    overflow: hidden;
+    }
+
+#contact .contact-data h2 {
+    text-align: left;
+    font-size: 38px;
+}
+
+#contact .contact-data address {
+    font-style: normal;
+    margin:72px 0;
+    line-height: 25px;
+}
+
+#contact .contact-data address div {
+    margin-top: 50px;
+}
+
+#contact .contact-data address a {
+    color:#1ac056;
+}
+
+#contact .contact-data .contact-social-icons a{
+    display: inline-block;
+    color:#fff;
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    font-size: 30px;
+    text-align: center;
+    border:1px solid white;
+    margin-right:30px;
+}
+
+#contact .contact-data .contact-social-icons a:hover {
+    color:#213b50;
+    background-color: white;
+    border:1px solid #213b50;
+}
+
+#contact .contact-form {
+    margin-top:100px;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width:100%;
+    background-color: #213b50;
+    border:none;
+    margin-bottom: 15px;
+    padding: 15px;
+    color:white;
+    border:1px solid white;
+}
+
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus {
+    background-color: #426684;
+}
+
+#contact .contact-form input[type="submit"] {
+    background-color: #1ac056;
+    color:white;
+    width: auto;
+    float:right;
+    padding: 15px 30px;
+    cursor: pointer;    
+}
+
+#contact .contact-form input[type="submit"]:hover {
+    background-color: #1ac056;
+    color:black;
+}
+
+#contact .contact-data, #contact .contact-form {
+    float:left;
+    width: 50%;
+}
 
 /* kontakt end */
 
+
+
 /* stopka start */
 
+#stopka {
+    background-color: #142634;
+    color:white;
+    padding-left: 80px;
+    }
 
-
-
-
-
-
-
-
-
+#stopka h6 {
+    margin:0;
+}
 
 /* stopka end*/
+
+
+/* RWD start */
+
+
+
+
+
+
+/* RWD end */
