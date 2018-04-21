@@ -5,13 +5,19 @@ form {
     width: 600px;
 }
 
+
+
 form input, form select {
     margin-bottom: 10px;
 }
 
+
+
 form label {
     display: block;
 }
+
+
 
 form select, textarea, input[type="text"], input[type="tel"], input[type="email"] {
     width: 300px;
@@ -20,6 +26,8 @@ form select, textarea, input[type="text"], input[type="tel"], input[type="email"
     border: 1px solid #2b4a64;
     height: 25px;
 }
+
+
 
 form select:focus, textarea:focus, input:focus {
     background-color: #4e708c;
@@ -30,6 +38,8 @@ form input[type="checkbox"] {
     float: left;
 }
 
+
+
 form input[type="submit"] {
     background-color: #1ac056;
     border: 1px solid #1ac056;
@@ -39,6 +49,8 @@ form input[type="submit"] {
     font-weight: bold;
     cursor: pointer;
 }
+
+
 
 form input[type="submit"]:hover {
     background-color: #fff;

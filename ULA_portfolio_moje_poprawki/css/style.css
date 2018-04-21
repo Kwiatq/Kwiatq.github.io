@@ -198,11 +198,57 @@ h2 {
 
 /* portfolio end*/
 
+#kontakt .kontakts {
+    display: inline-block;
+    width:50%;
+}
 
+#kontakt .kontakts .ikony {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
 
+#kontakt .kontakts .ikony .fb{
+    float: left;
+    margin:20px;
+}
 
+#kontakt .kontakts .ikony .fb:hover {
+     background-color: #3b5998;
+}
+
+#kontakt .kontakts .ikony .gplus{
+    float:left;
+    margin:20px;    
+}
+
+#kontakt .kontakts .ikony .gplus:hover {
+    background-color: #841631;
+}
+
+#kontakt .kontakts .ikony .tw{
+    float:left;
+    margin:20px;    
+}
+
+#kontakt .kontakts .ikony .tw:hover {
+    background-color: #55acee;
+}
+
+#kontakt .kontakts .ikony .in{
+    float:left;
+    margin:20px;   
+}
+
+#kontakt .kontakts .ikony .in:hover {
+     background-color: lightblue;
+}
 
 #kontakt .formularz {
+    float: right;
+    text-align: center;
     
 }
 
@@ -215,7 +261,7 @@ h2 {
     font-weight: bold;
     cursor: pointer;
     float:right;
-    margin-right:20px;
+    margin:20px;
 }
 
 
