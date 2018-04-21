@@ -191,103 +191,10 @@ h2 {
     padding: 5px;
 }
 
-
-
-
-
-
 /* portfolio end*/
 
-#kontakt .kontakts, .formularz{
-    background-color: #213b50;
-    width: 50%;
-    margin: 0;
-    height: 300px;
-}
 
-#kontakt h3 {
-    color:white;  
-}
-
-#kontakt .kontakts {
-    float:left;
-    display: inline-block;
-    width:50%;
-    
-}
-
-#kontakt .kontakts .ikony {
-    display: inline-block;
-    text-align: center;
-    font-size: 40px;
-    margin: 10px;
-    bottom:0px;
-}
-
-#kontakt .kontakts .ikony .fb{
-    float: left;
-    margin:20px;
-    background-color: white;
-}
-
-#kontakt .kontakts .ikony .fb:hover {
-     background-color: #3b5998;
-}
-
-#kontakt .kontakts .ikony .gplus{
-    float:left;
-    margin:20px; 
-    background-color: white;
-}
-
-#kontakt .kontakts .ikony .gplus:hover {
-    background-color: #841631;
-}
-
-#kontakt .kontakts .ikony .tw{
-    float:left;
-    margin:20px; 
-    background-color: white;
-}
-
-#kontakt .kontakts .ikony .tw:hover {
-    background-color: #55acee;
-}
-
-#kontakt .kontakts .ikony .in{
-    float:left;
-    margin:20px; 
-    background-color: white;
-}
-
-#kontakt .kontakts .ikony .in:hover {
-     background-color: lightblue;
-}
-
-#kontakt .formularz {
-    float: left;
-    text-align: center;
-    
-}
-
-#kontakt .formularz input[type="submit"] {
-    background-color: #1ac056;
-    border: 1px solid #1ac056;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    font-weight: bold;
-    cursor: pointer;
-    float:right;
-    margin:20px;
-}
-
-
-
-#kontakt .formularz input[type="submit"]:hover {
-    background-color: #fff;
-    color: #1ac056;
-}
+/* kontakt start */
 
 
 
@@ -295,3 +202,18 @@ h2 {
 
 
 
+/* kontakt end */
+
+/* stopka start */
+
+
+
+
+
+
+
+
+
+
+
+/* stopka end*/
