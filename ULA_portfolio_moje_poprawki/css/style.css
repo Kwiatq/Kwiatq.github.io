@@ -344,9 +344,45 @@ h2 {
 
 /* RWD start */
 
+@media (max-width:600px)
+{
+    #about figure {
+        width: 100%;
+    }
+    #about section{
+        width: 100%;
+    }
+    #skills .skills-icon .skills-icon-item figure {
+        width: 50%;
+    }
+    #portfolio .portfolio-items #portfolio-item-1 {
+        width: 50%;
+    }
+    #portfolio .portfolio-items #portfolio-item-2 {
+        width: 50%;
+    }
+    #portfolio .portfolio-items #portfolio-item-3 {
+        width: 100%;
+    }
+    #contact .contact-data {
+        width: 100%;
+    }
+    #contact .contact-form {
+        width: 100%;
+    }
+}
 
+/*responsive menu Piotrek start */
 
+/*
+#main-nav ul {
+    display: none;
+}
 
+#main-nav .toggle {
+    
+}
+*/
 
 
 /* RWD end */
