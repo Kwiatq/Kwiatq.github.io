@@ -1,0 +1,262 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif; google fonty */
+
+* {
+ box-sizing: border-box   
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #291f1a;
+    margin:0;
+    padding: 0;
+}
+
+span {
+    color:#1ac056;
+}
+
+section {
+/*    0 gora 80 left-right 100 bottom      */
+    padding: 0 80px 100px;
+}
+
+a {
+    transition: all 0.3s;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* general styles */
+
+/* nawigacja */
+
+#main-nav {
+    background-color: aqua;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 20;
+}
+
+#main-nav ul {
+    float:right;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+#main-nav ul li a {
+    text-decoration: none;
+    color: #1ac056;
+    font-weight: 300;
+}
+
+#main-nav ul li a:hover {
+    color: #291f1a;
+}
+
+/* koniec nawigacji */
+
+/* header */
+
+#main-header {
+    background-image: url("../img/header-background.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+   }
+
+.header-content {
+     text-align: center;
+    position: relative;
+/* oszukanie przegladarki celem wycentrowania   */
+    top:50%;
+    transform: translateY(-50%);
+}
+
+#main-header .header-content h1 {
+    font-size: 4em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+#main-header .header-content h2 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+/* koniec headera */
+
+/* about start */
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    }
+
+#about figure {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin:0;
+}
+
+#about figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 10px solid #fff;
+    border-radius: 15px;   
+}
+
+#about article {
+    width: 50%;
+    float:left;
+}
+
+/* about end */
+
+/* skills start */
+
+#skills p, #skills .skills-icons {
+    text-align: center;
+}
+
+#skills .skills-icons .skills-icons-item {
+    display: inline-block;
+}
+
+
+
+/* skills end */
+
+/* moje portfolio start */
+
+#moje_portfolio {
+    text-align: center:
+}
+
+/* dla figure zamiast div
+.portfolio .portfolio-img {
+    display: inline-block;
+    margin-right:10px;
+    width:30%;
+    float:left;
+    
+}
+*/
+
+.portfolio {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio .portfolio-item1 {
+    display: inline-block;
+    text-align: center;
+    height: 380px;
+    width: 33%;
+    background-image: url("../img/portfolio1.jpg");
+    background-repeat: no-repeat;
+    float:left;  
+}
+
+/* ramka po najechaniu na lewy obrazek */
+.portfolio .portfolio-item1:hover {
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    border: 10px solid white;
+     
+   
+}
+
+.portfolio .portfolio-item2 {
+    display: inline-block;
+    height: 380px;
+    width: 33%;
+    background-image: url("../img/portfolio2.jpg");
+    background-repeat: no-repeat;
+    float:left;
+}
+
+/* ramka po najechaniu na srodkowy obrazek*/
+.portfolio .portfolio-item2:hover {
+    display: inline-block;
+    text-align: center;
+    border:10px solid white;
+}
+
+.portfolio .portfolio-item3 {
+    display: inline-block;
+    height: 380px;
+    width: 33%;
+    background-image: url("../img/portfolio4.jpg");
+    background-repeat: no-repeat;
+    float:left;
+}
+
+.portfolio .portfolio-item3:hover {
+    display: inline-block;
+    text-align: center;
+    border: 10px solid white;
+}
+
+
+
+/* moje portfolio end */
+
+
+/* kontakt start */
+
+#kontakt {
+    clear: both;
+    font-size: 20px bold;
+    margin-top:20px;
+    color:white;
+    background-color: #213b50;
+    width: 100%;
+}
+
+#kontakt .kontakt {
+    width: 50%;
+    float:left;
+    background-color: #213b50;
+}
+
+
+
+form input[type="submit"] {
+
+    float:right;
+}
+
+form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+    
+}
+
+
+
+
+
+/* kontakt end */
+
+/* stopka start*/
+
+#stopka {
+    display: inline-block;
+    margin:20px;
+    
+}
+
+/* stopka end*/

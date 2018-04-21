@@ -137,8 +137,126 @@ h2 {
 
 /* skills end */
 
+/* moje portfolio start */
+
+#moje_portfolio {
+    text-align: center:
+}
+
+/* dla figure zamiast div
+.portfolio .portfolio-img {
+    display: inline-block;
+    margin-right:10px;
+    width:30%;
+    float:left;
+    
+}
+*/
+
+.portfolio {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio .portfolio-item1 {
+    display: inline-block;
+    text-align: center;
+    height: 380px;
+    width: 33%;
+    background-image: url("../img/portfolio1.jpg");
+    background-repeat: no-repeat;
+    float:left;  
+}
+
+/* ramka po najechaniu na lewy obrazek */
+.portfolio .portfolio-item1:hover {
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    border: 10px solid white;
+     
+   
+}
+
+.portfolio .portfolio-item2 {
+    display: inline-block;
+    height: 380px;
+    width: 33%;
+    background-image: url("../img/portfolio2.jpg");
+    background-repeat: no-repeat;
+    float:left;
+}
+
+/* ramka po najechaniu na srodkowy obrazek*/
+.portfolio .portfolio-item2:hover {
+    display: inline-block;
+    text-align: center;
+    border:10px solid white;
+}
+
+.portfolio .portfolio-item3 {
+    display: inline-block;
+    height: 380px;
+    width: 33%;
+    background-image: url("../img/portfolio4.jpg");
+    background-repeat: no-repeat;
+    float:left;
+}
+
+.portfolio .portfolio-item3:hover {
+    display: inline-block;
+    text-align: center;
+    border: 10px solid white;
+}
+
+
+
+/* moje portfolio end */
+
+
 /* kontakt start */
+
+#kontakt {
+    clear: both;
+    font-size: 20px bold;
+    margin-top:20px;
+    color:white;
+    background-color: #213b50;
+    width: 100%;
+}
+
+#kontakt .kontakt {
+    width: 50%;
+    float:left;
+    background-color: #213b50;
+}
+
+
+
+form input[type="submit"] {
+
+    float:right;
+}
+
+form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #1ac056;
+    
+}
+
+
 
 
 
 /* kontakt end */
+
+/* stopka start*/
+
+#stopka {
+    display: inline-block;
+    margin:20px;
+    
+}
+
+/* stopka end*/
