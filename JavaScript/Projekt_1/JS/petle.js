@@ -75,7 +75,7 @@ for (var b = 0; b < 10 ; b++) {
         console.log('--')
 }
 
-
+console.log('\n \n')
 
 
 
