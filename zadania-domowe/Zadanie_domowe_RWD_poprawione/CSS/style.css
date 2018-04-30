@@ -1,7 +1,5 @@
 ﻿* {
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
 }
 
 body {
@@ -84,7 +82,7 @@ p {
 
     #naglowek {
         background-position: center;
-        background-size: 100%, 100%;
+        background-size: cover;
     }
 
 }
