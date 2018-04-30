@@ -1,5 +1,7 @@
 ﻿* {
     box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
 
 body {
@@ -40,8 +42,7 @@ p {
         clear: both;
         position: absolute;
         top: 100%;
-        margin:0;
-        background-size: cover;
+        margin: 0;
     }
 
     #naglowek {
@@ -51,6 +52,7 @@ p {
         position: relative;
         top: 0;
         left: 0;
+        background-size: cover;
     }
 }
 
@@ -68,6 +70,7 @@ p {
         background-image: url("../obrazy/man-2.jpg");
         background-position: center;
         height: 70%;
+        background-size: cover;
     }
 }
 
