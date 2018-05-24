@@ -1,0 +1,85 @@
+/* CONTACT START */
+
+#contact {
+    background-color: $bgc-contacts;
+    color:$white;
+    overflow: hidden;
+    }
+
+#contact .contact-data h2 {
+    text-align: left;
+    font-size: 38px;
+}
+
+#contact .contact-data address {
+    font-style: normal;
+    margin:72px 0;
+    line-height: 25px;
+}
+
+#contact .contact-data address div {
+    margin-top: 50px;
+}
+
+#contact .contact-data address a {
+    color: $bgc;
+}
+
+#contact .contact-data .contact-social-icons a{
+    display: inline-block;
+    color:$white;
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    font-size: 30px;
+    text-align: center;
+    border:1px solid $white;
+    margin-right:30px;
+}
+
+#contact .contact-data .contact-social-icons a:hover {
+    color:$bgc-contacts;
+    background-color: $white;
+    border:1px solid $bgc-contacts;
+}
+
+#contact .contact-form {
+    margin-top:100px;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width:100%;
+    background-color: $bgc-contacts;
+    border:none;
+    margin-bottom: 15px;
+    padding: 15px;
+    color:$white;
+    border:1px solid $white;
+}
+
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus {
+    background-color: $bgc-form;
+}
+
+#contact .contact-form input[type="submit"] {
+    background-color: $bgc;
+    color:$white;
+    width: auto;
+    float:right;
+    padding: 15px 30px;
+    cursor: pointer;    
+}
+
+#contact .contact-form input[type="submit"]:hover {
+    background-color: $bgc;
+    color:$black;
+}
+
+#contact .contact-data, #contact .contact-form {
+    float:left;
+    width: 100%;
+}
+
+/* CONTACT END */

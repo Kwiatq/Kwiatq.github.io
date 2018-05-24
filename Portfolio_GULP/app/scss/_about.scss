@@ -1,0 +1,25 @@
+/* ABOUT - START */
+
+#o-mnie {
+    background-color: $about;
+    overflow: hidden;
+    @include center;
+}
+
+#o-mnie .section-header .section-title h2 {
+  @include center;
+}
+
+#o-mnie figure {
+    width: 100%;
+    margin: 0;
+}
+
+#o-mnie figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 10px solid $white;
+    border-radius: 15px;
+}
+
+/* ABOUT - END */

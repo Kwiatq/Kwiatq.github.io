@@ -1,0 +1,59 @@
+/* PORTFOLIO START */
+
+#portfolio .portfolio-items {
+    text-align: center;
+    font-size: 0;
+}
+
+#portfolio .portfolio-items .portfolio-item {
+    height: 350px;
+    display: inline-block;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    font-size: initial;
+}
+
+#portfolio #portfolio-item-1 {
+    background-image: url("../img/portfolio1.jpg");
+}
+
+#portfolio #portfolio-item-2 {
+    background-image: url("../img/portfolio2.jpg");
+}
+
+#portfolio #portfolio-item-3 {
+    background-image: url("../img/portfolio4.jpg");
+}
+
+#portfolio .portfolio-item .item-mask {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: $mask-color;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#portfolio .portfolio-item .item-mask:hover {
+    opacity: 1;
+    cursor:pointer;
+}
+
+#portfolio .portfolio-item .item-mask .item-content {
+    border:1px solid $white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#portfolio .portfolio-item .item-mask .item-content .item-content-inner {
+    position: absolute;
+    @include pos-center;
+    color:$white;
+    right:0;
+    left:0;
+    padding: 5px;
+}
+
+/* PORTFOLIO END */

@@ -1,0 +1,32 @@
+/* GENERAL STYLES - START */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $main-font;
+    font-weight: 300;
+    color: $body-color;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: $bgc;
+}
+section .section-header {
+	margin-bottom: 70px;
+	text-align: center;
+	width: 100%;
+}
+
+section {
+    padding: 0;
+/*        80px 100px; */
+}
+
+a {
+    transition: all 0.3s;
+}
+
+/* GENERAL STYLES -  END */

@@ -1,0 +1,10 @@
+@mixin center{
+    align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+@mixin pos-center {
+    top:50%;
+    transform: translateY(-50%);
+}
