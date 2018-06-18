@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spinners CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main spinner-1">
+        <h1>HELLO, welcome to spinners CSS</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea fugiat quis architecto, aperiam consequuntur aspernatur veritatis pariatur nostrum explicabo aliquam, vel quisquam. Voluptates, modi. Laborum molestias, numquam vitae amet eligendi aliquam explicabo excepturi est nulla hic! Aspernatur pariatur, labore quibusdam, nihil hic unde, repellat similique maiores doloribus alias ab nobis.</p>
+    </div>
+    <div class="spinner-2">
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magni a temporibus dolorem optio quaerat deserunt, praesentium omnis quasi totam.</p>
+    </div>
+    <div class="spinner-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit deserunt, aut porro similique est voluptatum quod cum soluta recusandae, atque illum error. Ab excepturi magni libero fuga a consectetur ducimus.</p>
+    </div>
+
+    <script>
+        document.querySelector('.main p').style.display = 'none';
+        document.querySelector('.main').classList.add('spinner-1');
+
+        //Mimic server req
+
+        setTimeout(() => {
+            document.querySelector('.main').classList.remove('spinner-1');
+            document.querySelector('.main p').style.display = 'block';
+        }, 3000);
+    </script>
+
+</body>
+
+</html>
